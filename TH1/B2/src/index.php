@@ -25,7 +25,7 @@
                                 <?php foreach($item['choices'] as $choiceIndex => $choice):?>
                                     <div class="form-check">
                                         <!-- Sửa name để mỗi câu hỏi có nhóm riêng -->
-                                        <input class="form-check-input" type="radio" 
+                                        <input class="form-check-input" type="checkbox" 
                                                name="question_<?php echo $index; ?>" 
                                                id="question_<?php echo $index . '_' . $choiceIndex; ?>" 
                                                value="<?php echo $choice; ?>">
